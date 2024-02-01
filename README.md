@@ -1,3 +1,3 @@
 # React + TypeScript + Vite
 
-<img src='./public/design/desktop-preview.jpg'/>
+![Design preview for the FAQ accordion coding challenge](./public/design/desktop-preview.jpg)
