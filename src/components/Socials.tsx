@@ -2,7 +2,7 @@ import { socials } from './shared/consts';
 
 const Socials = () => {
   return (
-    <div className="flex gap-3">
+    <div className="flex max-w-80 max-[767px]:m-auto gap-3">
       {socials.map((item, index) => (
         <a key={index} href={item.link}>
           <div className="cursor-pointer border border-white rounded-full p-3">
