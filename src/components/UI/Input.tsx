@@ -16,7 +16,7 @@ const Input = ({ label, hasError, errorMessage, ...rest }: InputProps) => {
         </label>
       )}
       <input
-        className={`px-5 py-2 w-full outline-none rounded ${
+        className={`px-5 py-2 w-full outline-none text-very-Dark-Cyan rounded ${
           hasError ? 'border-red-500 border-2' : 'border-none'
         }`}
         {...rest}
